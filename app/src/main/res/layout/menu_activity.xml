@@ -3,23 +3,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/background_title_menu">
 
     <ListView
         android:id="@+id/playerlist"
         android:layout_width="fill_parent"
-        android:layout_height="392dp"
-        android:layout_marginTop="5dp">
+        android:layout_height="280dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginVertical="120dp"></ListView>
 
-    </ListView>
-
-    <Button
-        android:layout_weight="2"
+    <ImageButton
         android:id="@+id/b_ajouterPlayer"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ajouter un player"
-        android:layout_gravity="center" />
+        android:layout_height="33dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:background="@color/cardview_shadow_end_color"
+        android:src="@drawable/bouton_ajouter" />
 
     <Button
         android:layout_weight="1"
@@ -30,4 +31,3 @@
         android:layout_gravity="center" />
 
 </LinearLayout>
-

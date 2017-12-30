@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Tell us the question !</string>
+    <string name="app_name">Tell us the truth !</string>
     <string name="tv_J1">Joueur 1 : </string>
     <string name="tv_J2">Joueur 2 : </string>
     <string name="tv_J3">Joueur 3 : </string>
