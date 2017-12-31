@@ -13,6 +13,7 @@
         android:id="@+id/tvPlayer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="casual"
         android:text="@string/tv_J1"
         android:textSize="18sp"
         android:textStyle="bold" />

@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="@drawable/background"
+        android:fontFamily="casual"
         android:gravity="center_vertical"
         android:text="@string/question"
         android:textAlignment="center"
